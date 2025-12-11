@@ -1,6 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
-    color: black;
+    color: #434455;
     background-color: #fff;
     font-style: normal;
 }
@@ -67,7 +67,7 @@ a {
 
 .beginning-title {
 font-size: 56px;
-    line-height: 1.1;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #FFFFFF;
@@ -83,6 +83,11 @@ font-weight: 500;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: #4D5AE5;
     cursor: pointer;
+}
+
+.beginning-btn:hover,
+.beginning-btn:focus {
+    background-color: #404bbf;
 }
 
  /* ----------------Features--------------------- */
@@ -110,7 +115,7 @@ font-weight: 500;
 
 .team-name{
     font-size: 36px;
-    line-height: 1.1;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
@@ -141,7 +146,7 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.1
 
 .portfolio-name {
     font-size: 36px;
-        line-height: 1.1;
+        line-height: 1.11;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
